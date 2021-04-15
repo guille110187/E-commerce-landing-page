@@ -1,0 +1,1655 @@
+ @import url('https://fonts.googleapis.com/css?family=Mukta:200,300,400,500,600,700,800|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+
+ /* GLOBAL STYLES */
+ .principal {
+     min-height: 100vh;
+     width: 75%;
+     margin: auto;
+ }
+
+
+ .padding20 {
+     padding-top: 20px;
+ }
+
+ .padding10 {
+     padding-top: 10px;
+ }
+
+ .padding30 {
+     padding-top: 30px;
+ }
+
+ .padding40 {
+     padding-top: 40px;
+ }
+
+ .padding60 {
+     padding-top: 60px;
+ }
+
+ hr {
+     margin-top: 1rem;
+     margin-bottom: 1rem;
+     border: 0;
+     border-top: 1px solid rgba(0, 0, 0, 0.1);
+     background: #e1e8ee;
+ }
+
+ .paddingBottom60 {
+     padding-bottom: 60px;
+ }
+ .product-header a:hover {text-decoration:underline;}
+
+.recipe-section a.card-link:hover {
+    text-decoration: underline;
+}
+
+
+ /* Banner */
+ .header-text {
+
+     height: 522px;
+     background: url("../images/banner.png");
+     background-size: cover;
+     display: flex;
+     flex-direction: column;
+     padding: 40px 100px;
+ }
+
+ .header-text h1 {
+     color: white;
+     width: 50%;
+     font-family: 'Roboto';
+     font-weight: 100;
+     font-size: 44px;
+     line-height: 1;
+     padding: 20px;
+ }
+
+ .header-text h6 {
+     color: white;
+     width: 50%;
+     padding: 20px
+ }
+
+ .header-text button {
+     background-color: #004FA2;
+     border-color: #004FA2;
+     color: white;
+     height: 60px;
+     width: 283px;
+     font-size: 16px;
+
+ }
+
+ /* Section Product */
+
+ .feature-categories {
+     display: flex;
+     justify-content: space-between;
+     background-color: white;
+ }
+
+
+ .feature-categories button.btn.btn-primary.btn-lg {
+     border-radius: 5px;
+     border: none;
+     color: #16133e;
+     font-family: Roboto;
+     font-size: 14px;
+     font-weight: 400;
+     background-color: #F7F9FA;
+     width: 16%;
+     margin: 20px 0px;
+     box-shadow: -2px 3px 9px 0 rgb(128 152 213 / 15%);
+     padding: 20px 0px;
+     transition: 0.3s;
+ }
+
+ .feature-categories button.btn.btn-primary.btn-lg:hover {
+     -ms-transform: scale(1.2);
+     /* IE 9 */
+     -webkit-transform: scale(1.2);
+     /* Safari 3-8 */
+     transform: scale(1.2);
+     background-color: #fff;
+
+ }
+
+ i.fas {
+     color: #004FA2;
+     padding-right: 15px;
+     font-size: 20px
+ }
+
+ .product-header {
+     display: flex;
+     justify-content: space-between;
+     padding: 10px 0 10px 0;
+ }
+
+ .product-header h3 {
+     color: #16133e;
+     font-family: Roboto;
+     font-size: 24px;
+     font-weight: 300;
+     line-height: 58px;
+ }
+
+ .product-header a {
+     text-decoration: none;
+     font-size: 16px;
+     color: #004FA2;
+     font-weight: bolder;
+ }
+
+ .product-section .card-body {
+     background-color: #f7f9fa;
+ }
+
+ .product-section h5.card-title {
+     color: #43484D;
+     line-height: 1;
+     font-size: 18px;
+     font-family: 'Roboto', sans-serif;
+ }
+
+ .product-section p.card-text {
+     font-size: 20px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 700;
+ }
+
+ .img-shadow {
+     filter: drop-shadow(0 12px 5px rgba(0, 0, 0, 0.05));
+ }
+
+ .weight {
+     display: none;
+ }
+
+ /* Rating */
+ div.stars {
+     display: inline-block
+ }
+
+ input.star {
+     display: none
+ }
+
+ label.star {
+     float: right;
+     padding: 0 2px 0px;
+     font-size: 16px;
+     color: #004FA2;
+     transition: all .2s;
+ }
+
+ input.star:checked~label.star:before {
+     content: '\f005';
+     color: #FD4;
+     transition: all .25s;
+     font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+ }
+
+ input.star-5:checked~label.star:before {
+     color: #FD4;
+     font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    
+ }
+
+ input.star-1:checked~label.star:before {
+     color: #F62
+ }
+
+ label.star:hover {
+     transform: rotate(-15deg) scale(1.3)
+ }
+
+ label.star:before {
+     content: '\f006';
+     font-family: FontAwesome;
+ }
+
+ /* Section Favorite Receipes */
+
+ .favorite {
+     display: flex;
+     align-items: center;
+     padding: 60px;
+ }
+
+ .favorite h1.favorite-heading {
+     color: #6d6c76;
+     font-family: Roboto;
+     font-size: 36px;
+     font-weight: 400;
+     line-height: 48px;
+ }
+
+ /* Section Recipes */
+ .recipes-header {
+     display: flex;
+     justify-content: space-between;
+     padding: 0 0 10px 0;
+ }
+
+ .recipes-header h3 {
+     color: #16133e;
+     font-family: Roboto;
+     font-size: 24px;
+     font-weight: 300;
+     line-height: 58px;
+ }
+
+ .recipes-header a {
+     text-decoration: none;
+     font-size: 16px;
+     color: #004FA2;
+     font-weight: bolder;
+ }
+
+ .img-cut-quinoa {
+     width: 144px;
+     height: 144px;
+     object-fit: cover;
+     object-position: 50% 100%;
+     margin: 25px;
+ }
+
+ .img-cut-zucchini {
+     width: 144px;
+     height: 144px;
+     object-fit: cover;
+     object-position: 95% 100%;
+     margin: 25px;
+ }
+
+ .img-cut-corn {
+     width: 144px;
+     height: 144px;
+     object-fit: cover;
+     object-position: 68% 100%;
+     margin: 25px;
+ }
+
+ .border-recipe {
+     border-color: #E5EAF4;
+     height: 100%;
+ }
+
+ .recipe-section p.card-text {
+     margin-bottom: 0px;
+     color: #4d4d4d;
+     font-family: Roboto;
+     font-size: 13px;
+     font-weight: 400;
+     line-height: 22px;
+ }
+
+ .recipe-section h5.card-title {
+     color: #16133e;
+     font-family: Roboto;
+     font-size: 24px;
+     font-weight: 400;
+     line-height: 29px;
+ }
+
+ .recipe-section a.card-link {
+     text-decoration: none;
+     color: #004FA2;
+     font-family: Roboto;
+     font-size: 13px;
+     font-weight: 400;
+     line-height: 22px;
+ }
+
+ /* Freesh Product */
+
+ .fresh-product-section {
+     background: url("../images/fresh.png");
+     background-size: cover;
+     height: 576px;
+ }
+
+ .fresh-product-section h5.card-title {
+     color: #242424;
+     font-family: Roboto;
+     font-size: 42px;
+     font-weight: 300;
+     line-height: 48px;
+ }
+
+ .fresh-product-section .card {
+     float: right;
+     opacity: 0.8;
+     padding: 25px;
+     margin: 20px;
+     width: 32rem;
+ }
+
+ .fresh-product-section h6.card-subtitle {
+     color: #5e6977;
+     font-family: Roboto;
+     font-size: 26px;
+     font-weight: 300;
+     line-height: 36px;
+     letter-spacing: -0.2px;
+     padding-top: 15px;
+ }
+
+ .fresh-product-section .list-group-flush>.list-group-item,
+ .fresh-product-section .card-text {
+     border-width: 0px;
+     color: #43484d;
+     font-family: Roboto;
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 26px;
+     padding: 0 20px;
+ }
+
+ .fresh-product-section .list-group-item {
+     padding: 0px;
+ }
+
+ /* Shop Onlline Section */
+ .shop-pnline {
+     display: flex;
+     align-items: center;
+ }
+
+ .shop-pnline h1.online-heading {
+     color: #242424;
+     font-family: Roboto;
+     font-size: 42px;
+     font-weight: 300;
+     line-height: 48px;
+     width: 80%;
+     padding-bottom: 15px;
+ }
+
+ .shop-pnline p {
+     color: #43484d;
+     font-family: Roboto;
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 26px;
+     width: 85%;
+ }
+
+ /* Order Delivery */
+
+ .order-delivery {
+     display: flex;
+     align-items: center;
+ }
+
+ .order-delivery h1.order-heading {
+     color: #242424;
+     font-family: Roboto;
+     font-size: 42px;
+     font-weight: 300;
+     line-height: 48px;
+     width: 80%;
+     padding-bottom: 15px;
+ }
+
+ .order-delivery h3.order-heading {
+     color: #5e6977;
+     font-family: Roboto;
+     font-size: 26px;
+     font-weight: 300;
+     line-height: 36px;
+     letter-spacing: -0.2px;
+     width: 80%;
+
+ }
+
+ .order-delivery p {
+     color: #43484d;
+     font-family: Roboto;
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 26px;
+     width: 85%;
+     padding-top: 15px;
+ }
+
+ /* Member Section */
+ .member-section {
+     height: auto;
+     border-radius: 10px;
+     border: dashed 1px #979797;
+     background: linear-gradient(180deg, #03508C, #016BC4);
+ }
+
+ .member-section h1 {
+     color: #ffffff;
+     font-family: Roboto;
+     font-size: 36px;
+     font-weight: 400;
+     line-height: 52px;
+     text-align: center;
+     width: 70%;
+     padding-top: 50px;
+     margin: auto;
+ }
+
+ .member-shop-btn {
+     margin: auto;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     align-content: stretch;
+     padding: 40px 0px;
+ }
+
+ .btn-members button.btn.btn-primary.btn-lg {
+     border-radius: 5px;
+     background: #ffffff;
+     color: #16133e;
+     font-family: Roboto;
+     font-size: 16px;
+     font-weight: 400;
+ }
+
+ .btn-categories button.btn.btn-primary.btn-lg {
+     border-radius: 5px;
+     border: 1px solid #ffffff;
+     color: #ffffff;
+     font-family: Roboto;
+     font-size: 16px;
+     font-weight: 400;
+     background-color: transparent;
+ }
+
+ .member-shop-btn button {
+     margin: 0px 5px
+ }
+
+ /* Footer */
+
+
+ .rectangle {
+     height: 11px;
+     background: linear-gradient(129deg, #17B9EA, #5087FF, #544FFF, #790ACC);
+ }
+
+ /* Footer */
+ footer.container-fluid {
+     width: 90%;
+ }
+
+ .copyright-social {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     display: -ms-flexbox;
+     display: -webkit-flex;
+     display: flex;
+     -webkit-flex-direction: row;
+     -ms-flex-direction: row;
+     flex-direction: row;
+     -webkit-flex-wrap: nowrap;
+     -ms-flex-wrap: nowrap;
+     flex-wrap: nowrap;
+     -webkit-justify-content: center;
+     -ms-flex-pack: center;
+     justify-content: space-around;
+     -webkit-align-content: stretch;
+     -ms-flex-line-pack: stretch;
+     align-content: stretch;
+     -webkit-align-items: center;
+     -ms-flex-align: center;
+     align-items: center;
+     padding-top: 10px;
+ }
+
+ .social {
+     -webkit-order: 1;
+     -ms-flex-order: 1;
+     order: 1;
+     -webkit-flex: 0 1 auto;
+     -ms-flex: 0 1 auto;
+     flex: 0 1 auto;
+     -webkit-align-self: auto;
+     -ms-flex-item-align: auto;
+     align-self: auto;
+ }
+
+
+
+ /* End Footer */
+
+ @media (max-width: 575.98px) {
+
+     /* Banner */
+
+     .principal {
+         width: 100%;
+     }
+
+     .header-text {
+         height: 32vh;
+         padding: 0px;
+     }
+
+     .logo {
+         width: 50%;
+         padding: 16px 26px 0 26px;
+     }
+
+
+
+     .header-text h1 {
+         width: 49%;
+         font-size: 14px;
+         padding: 12px 20px 0px;
+     }
+
+     .header-text h6 {
+         color: white;
+         width: 72%;
+         font-size: 10px;
+         padding: 1px 20px 0px;
+     }
+
+     .header-text button {
+
+         height: auto;
+         width: 50%;
+         font-size: 10px;
+         padding: 8px;
+         margin-top: 10px;
+     }
+
+     /* Product Section */
+     .feature-categories {
+         display: none;
+     }
+
+     .product-header h3 {
+         font-size: 17px;
+         line-height: normal;
+     }
+
+     .product-header {
+         display: flex;
+         flex-direction: column;
+         padding: 0 0 10px 0;
+     }
+
+     .card {
+         margin: auto;
+     }
+
+     .product-section .card-title {
+         margin-bottom: 8px;
+     }
+
+     label.star {
+         margin-bottom: 0px;
+     }
+
+     .product-section h5.card-title {
+         opacity: 1;
+         color: #464646;
+         font-family: 'Roboto', sans-serif;
+         display: block;
+         max-width: 100%;
+         margin: 0 auto;
+         display: -webkit-box;
+         -webkit-line-clamp: 3;
+         -webkit-box-orient: vertical;
+         overflow: hidden;
+         max-height: 80px;
+         text-align: left;
+         font-size: 14px;
+         line-height: 21px;
+     }
+
+     .weight-hide {
+         display: none !important;
+     }
+
+     .weight {
+         display: inline;
+     }
+
+     /* Favorite Sectio */
+
+     .favorite {
+         display: flex;
+         flex-direction: column;
+         flex-wrap: nowrap;
+         justify-content: flex-start;
+         align-items: center;
+         align-content: stretch;
+         padding: 15px 0 0 0;
+     }
+
+     .favorite h1.favorite-heading {
+         font-size: 17px;
+         line-height: normal;
+         font-weight: 300
+     }
+
+     .recipes-header {
+         display: flex;
+         flex-direction: column;
+         padding: 0 0 10px 0;
+     }
+
+     .recipes-header h3 {
+         font-size: 17px;
+         font-weight: 300;
+         line-height: normal;
+     }
+
+     .recipe-section .card-body {
+         padding: 0px 1.25rem;
+     }
+
+     .recipe-section h5.card-title {
+         font-size: 17px;
+         line-height: normal;
+     }
+
+     .recipe-section .card-title {
+         margin-bottom: 8px;
+     }
+
+     .recipe-section .recipe-col {
+         padding-bottom: 10px;
+     }
+
+     .py-5 {
+         padding-bottom: 1rem !important;
+     }
+
+     /* Fresh Product */
+
+     .fresh-product-section .card {
+         padding: 0px;
+         width: 17rem;
+         margin: 25px;
+     }
+
+     .fresh-product-section h5.card-title {
+         font-size: 17px;
+         line-height: normal;
+     }
+
+     .fresh-product-section h6.card-subtitle {
+         font-size: 15px;
+         line-height: normal;
+     }
+
+     .fresh-product-section .list-group-flush>.list-group-item,
+     .fresh-product-section .card-text {
+         line-height: normal;
+         font-size: 12px;
+         padding: 0px 0px 0px 10px;
+     }
+
+     .fresh-product-section {
+         height: 360px;
+     }
+
+     /* Shop Online */
+     .shop-pnline {
+         display: flex;
+         flex-direction: column;
+     }
+
+     .shop-pnline h1.online-heading {
+         font-size: 22px;
+         line-height: normal;
+         width: 100%;
+     }
+
+     .padding60 {
+         padding-top: 20px;
+     }
+
+     .paddingBottom60 {
+         padding-bottom: 20px;
+     }
+
+     .shop-pnline p {
+         font-size: 14px;
+         font-weight: 300;
+         line-height: normal;
+         width: 100%;
+     }
+
+     .shop-pnline .img-fluid {
+         max-width: 60%;
+         height: auto;
+         display: block;
+         margin: auto;
+     }
+
+     /* Order Delivery */
+
+     .order-delivery {
+         display: flex;
+         align-items: center;
+         flex-direction: column-reverse;
+     }
+
+     .order-delivery .img-fluid {
+         max-width: 60%;
+         height: auto;
+         display: block;
+         margin: auto;
+     }
+
+     .order-delivery h1.order-heading {
+         font-size: 22px;
+         line-height: normal;
+         width: 100%;
+     }
+
+     .order-delivery h3.order-heading {
+         font-size: 18px;
+         line-height: normal;
+         width: 100%;
+     }
+
+     .order-delivery p {
+         font-size: 14px;
+         font-weight: 300;
+         line-height: normal;
+         width: 100%;
+     }
+
+     /* Member Section */
+
+     .member-section h1 {
+         font-size: 18px;
+         font-weight: 300;
+         line-height: normal;
+         width: 100%;
+         padding-top: 30px;
+     }
+
+
+     .btn-categories button.btn.btn-primary.btn-lg {
+         font-size: 12px;
+     }
+
+     .btn-members button.btn.btn-primary.btn-lg {
+         font-size: 12px;
+     }
+
+     .member-section {
+         width: 93%;
+     }
+
+     /* Footer */
+     footer.container-fluid {
+         width: 100%;
+     }
+
+     footer p.copyright {
+         font-size: 12px;
+         text-align: center;
+
+     }
+
+     .copyright-social {
+         display: flex;
+         flex-direction: row;
+
+     }
+
+     .social {
+         order: 0;
+     }
+ }
+
+ @media (min-width: 576px) and (max-width: 767.98px) {
+     .principal {
+         width: 100%;
+     }
+
+     .header-text {
+         height: 32vh;
+         padding: 0px;
+     }
+
+     .logo {
+         width: 50%;
+         padding: 16px 26px 0 26px;
+     }
+
+     .header-text h1 {
+         width: 50%;
+         font-size: 20px;
+         padding: 20px 20px 0px;
+     }
+
+     .header-text h6 {
+         color: white;
+         width: 72%;
+         font-size: 15px;
+         padding: 1px 20px 0px;
+     }
+
+     .header-text button {
+
+         height: auto;
+         width: 40%;
+         font-size: 15px;
+         padding: 8px;
+         margin-top: 10px;
+     }
+
+     /* Product Section */
+
+     .feature-categories {
+         flex-wrap: wrap;
+     }
+
+     .feature-categories button.btn.btn-primary.btn-lg {
+         width: 31%;
+         margin: 20px 5px;
+         font-size: 14px;
+
+     }
+
+     .weight-hide {
+         display: none !important;
+     }
+
+     .weight {
+         display: inline;
+     }
+
+     label.star {
+         margin-bottom: 0px;
+     }
+
+     .product-section h5.card-title {
+         opacity: 1;
+         color: #464646;
+         font-family: 'Roboto', sans-serif;
+         display: block;
+         max-width: 100%;
+         margin: 0 auto;
+         display: -webkit-box;
+         -webkit-line-clamp: 3;
+         -webkit-box-orient: vertical;
+         overflow: hidden;
+         max-height: 80px;
+         text-align: left;
+         font-size: 14px;
+         line-height: 21px;
+     }
+
+     .product-header h3 {
+         font-size: 20px;
+         line-height: normal;
+         width: 100%;
+     }
+
+     .product-header a {
+         padding-left: 20px;
+     }
+
+     .product-section .card-body {
+         padding: 0.98rem;
+     }
+
+     /* Favorite Section */
+     .favorite {
+         display: flex;
+         flex-direction: column;
+         flex-wrap: nowrap;
+         justify-content: flex-start;
+         align-items: center;
+         align-content: stretch;
+         padding: 15px 0 0 0;
+     }
+
+     .favorite h1.favorite-heading {
+         font-size: 22px;
+         line-height: normal;
+         font-weight: 300
+     }
+
+     .recipes-header {
+         display: flex;
+         flex-direction: column;
+         padding: 0 0 10px 0;
+     }
+
+     .recipes-header h3 {
+         font-size: 22px;
+         font-weight: 300;
+         line-height: normal;
+     }
+
+     .recipe-section .card-body {
+         padding: 0px 1.25rem;
+     }
+
+     .recipe-section h5.card-title {
+         font-size: 17px;
+         line-height: normal;
+     }
+
+     .recipe-section .card-title {
+         margin-bottom: 8px;
+     }
+
+     .recipe-section .recipe-col {
+         padding-bottom: 10px;
+     }
+
+     .py-5 {
+         padding-bottom: 1rem !important;
+     }
+
+     /* Fresh Product */
+
+     .fresh-product-section .card {
+         padding: 0px;
+         width: 17rem;
+         margin: 25px;
+     }
+
+     .fresh-product-section h5.card-title {
+         font-size: 17px;
+         line-height: normal;
+     }
+
+     .fresh-product-section h6.card-subtitle {
+         font-size: 15px;
+         line-height: normal;
+     }
+
+     .fresh-product-section .list-group-flush>.list-group-item,
+     .fresh-product-section .card-text {
+         line-height: normal;
+         font-size: 12px;
+         padding: 0px 0px 0px 10px;
+     }
+
+     .fresh-product-section {
+         height: 360px;
+     }
+
+     /* Shop Online */
+     .shop-pnline {
+         display: flex;
+         flex-direction: column;
+     }
+
+     .shop-pnline h1.online-heading {
+         font-size: 22px;
+         line-height: normal;
+         width: 100%;
+     }
+
+     .padding60 {
+         padding-top: 20px;
+     }
+
+     .paddingBottom60 {
+         padding-bottom: 20px;
+     }
+
+     .shop-pnline p {
+         font-size: 14px;
+         font-weight: 300;
+         line-height: normal;
+         width: 100%;
+     }
+
+     .shop-pnline .img-fluid {
+         max-width: 60%;
+         height: auto;
+         display: block;
+         margin: auto;
+     }
+
+     /* Order Delivery */
+
+     .order-delivery {
+         display: flex;
+         align-items: center;
+         flex-direction: column-reverse;
+     }
+
+     .order-delivery .img-fluid {
+         max-width: 60%;
+         height: auto;
+         display: block;
+         margin: auto;
+     }
+
+     .order-delivery h1.order-heading {
+         font-size: 22px;
+         line-height: normal;
+         width: 100%;
+     }
+
+     .order-delivery h3.order-heading {
+         font-size: 18px;
+         line-height: normal;
+         width: 100%;
+     }
+
+     .order-delivery p {
+         font-size: 14px;
+         font-weight: 300;
+         line-height: normal;
+         width: 100%;
+     }
+
+     /* Member Section */
+
+     .member-section h1 {
+         font-size: 18px;
+         font-weight: 300;
+         line-height: normal;
+         width: 100%;
+         padding-top: 30px;
+     }
+
+
+     .btn-categories button.btn.btn-primary.btn-lg {
+         font-size: 12px;
+     }
+
+     .btn-members button.btn.btn-primary.btn-lg {
+         font-size: 12px;
+     }
+
+     .member-section {
+         width: 93%;
+     }
+
+     /* Footer */
+     footer.container-fluid {
+         width: 100%;
+     }
+
+     footer p.copyright {
+         font-size: 12px;
+         text-align: center;
+
+     }
+
+     footer p.float-end {
+         display: block;
+         text-align: center;
+         padding-top: 20px;
+     }
+ }
+
+ @media (min-width: 768px) and (max-width: 991.98px) {
+     .principal {
+         width: 100%;
+     }
+
+     .header-text {
+         height: 32vh;
+         padding: 0px;
+     }
+
+     .logo {
+         width: 40%;
+         padding: 16px 26px 0 26px;
+     }
+
+     .header-text h1 {
+         width: 50%;
+         font-size: 20px;
+         padding: 20px 20px 0px;
+     }
+
+     .header-text h6 {
+         color: white;
+         width: 72%;
+         font-size: 15px;
+         padding: 1px 20px 0px;
+     }
+
+     .header-text button {
+         height: auto;
+         width: 100%;
+         font-size: 15px;
+         padding: 8px;
+         margin-top: 10px;
+     }
+
+     /* Product Section */
+     .feature-categories {
+         flex-wrap: wrap;
+     }
+
+     .feature-categories button.btn.btn-primary.btn-lg {
+         width: 31%;
+         margin: 20px 5px;
+         font-size: 14px;
+
+     }
+
+     .weight-hide {
+         display: inline;
+     }
+
+     .weight {
+         display: none !important;
+     }
+
+     label.star {
+         margin-bottom: 0px;
+     }
+
+     .product-section h5.card-title {
+         opacity: 1;
+         color: #464646;
+         font-family: 'Roboto', sans-serif;
+         display: block;
+         max-width: 100%;
+         margin: 0 auto;
+         display: -webkit-box;
+         -webkit-line-clamp: 3;
+         -webkit-box-orient: vertical;
+         overflow: hidden;
+         max-height: 80px;
+         text-align: left;
+         font-size: 14px;
+         line-height: 21px;
+     }
+
+     .product-header h3 {
+         font-size: 20px;
+         line-height: normal;
+         width: 100%;
+     }
+
+     .product-header a {
+         float: right;
+     }
+
+     .product-section .card-body {
+         padding: 15px 0px;
+     }
+
+     /* Favorite Section */
+     .favorite {
+         display: flex;
+         flex-direction: row;
+         flex-wrap: nowrap;
+         justify-content: flex-start;
+         align-items: center;
+         align-content: stretch;
+         padding: 15px 0 0 0;
+     }
+
+     .favorite h1.favorite-heading {
+         font-size: 22px;
+         line-height: normal;
+         font-weight: 300
+     }
+
+     .recipes-header {
+         display: flex;
+         flex-direction: column;
+         padding: 0 0 10px 0;
+     }
+
+     .recipes-header h3 {
+         font-size: 22px;
+         font-weight: 300;
+         line-height: normal;
+     }
+
+     .recipe-section .card-body {
+         padding: 0px 0.95rem;
+     }
+
+     .recipe-section h5.card-title {
+         font-size: 17px;
+         line-height: normal;
+     }
+
+     .recipe-section .card-title {
+         margin-bottom: 8px;
+     }
+
+     .recipe-section .recipe-col {
+         padding-bottom: 10px;
+     }
+
+     .py-5 {
+         padding-bottom: 1rem !important;
+     }
+
+     /* Fresh Product */
+
+     .fresh-product-section .card {
+         padding: 0px;
+         width: 17rem;
+         margin: 25px;
+     }
+
+     .fresh-product-section h5.card-title {
+         font-size: 17px;
+         line-height: normal;
+     }
+
+     .fresh-product-section h6.card-subtitle {
+         font-size: 15px;
+         line-height: normal;
+     }
+
+     .fresh-product-section .list-group-flush>.list-group-item,
+     .fresh-product-section .card-text {
+         line-height: normal;
+         font-size: 12px;
+         padding: 0px 0px 0px 10px;
+     }
+
+     .fresh-product-section {
+         height: 360px;
+     }
+
+     /* Shop Online */
+     .shop-pnline {
+         display: flex;
+         flex-direction: row;
+     }
+
+     .shop-pnline h1.online-heading {
+         font-size: 22px;
+         line-height: normal;
+         width: 100%;
+     }
+
+     .padding60 {
+         padding-top: 20px;
+     }
+
+     .paddingBottom60 {
+         padding-bottom: 20px;
+     }
+
+     .shop-pnline p {
+         font-size: 14px;
+         font-weight: 300;
+         line-height: normal;
+         width: 100%;
+     }
+
+     .shop-pnline .img-fluid {
+         max-width: 60%;
+         height: auto;
+         display: block;
+         margin: auto;
+     }
+
+     /* Order Delivery */
+
+     .order-delivery {
+         display: flex;
+         align-items: center;
+         flex-direction: row;
+     }
+
+     .order-delivery .img-fluid {
+         max-width: 60%;
+         height: auto;
+         display: block;
+         margin: auto;
+     }
+
+     .order-delivery h1.order-heading {
+         font-size: 22px;
+         line-height: normal;
+         width: 100%;
+     }
+
+     .order-delivery h3.order-heading {
+         font-size: 18px;
+         line-height: normal;
+         width: 100%;
+     }
+
+     .order-delivery p {
+         font-size: 14px;
+         font-weight: 300;
+         line-height: normal;
+         width: 100%;
+     }
+
+     /* Member Section */
+
+     .member-section h1 {
+         font-size: 18px;
+         font-weight: 300;
+         line-height: normal;
+         width: 100%;
+         padding-top: 30px;
+     }
+
+
+     .btn-categories button.btn.btn-primary.btn-lg {
+         font-size: 12px;
+     }
+
+     .btn-members button.btn.btn-primary.btn-lg {
+         font-size: 12px;
+     }
+
+     .member-section {
+         width: 93%;
+     }
+
+     /* Footer */
+     footer.container-fluid {
+         width: 100%;
+     }
+
+     footer p.copyright {
+         font-size: 12px;
+         text-align: center;
+
+     }
+
+     footer p.float-end {
+         display: block;
+         text-align: center;
+         padding-top: 20px;
+     }
+ }
+
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+     .principal {
+         width: 100%;
+     }
+
+     .header-text {
+         height: 32vh;
+         padding: 0px;
+     }
+
+     .logo {
+         width: 40%;
+         padding: 16px 26px 0 26px;
+     }
+
+     .header-text h1 {
+         width: 50%;
+         font-size: 20px;
+         padding: 20px 20px 0px;
+     }
+
+     .header-text h6 {
+         color: white;
+         width: 72%;
+         font-size: 15px;
+         padding: 1px 20px 0px;
+     }
+
+     .header-text button {
+         height: auto;
+         width: 100%;
+         font-size: 15px;
+         padding: 8px;
+         margin-top: 10px;
+     }
+
+     /* Product Section */
+     i.fas {
+         padding-right: 10px;
+     }
+
+     .feature-categories button.btn.btn-primary.btn-lg {
+         font-size: 13px;
+         width: 16%;
+         margin: 20px 3px;
+
+     }
+
+     .weight-hide {
+         display: inline;
+     }
+
+     .weight {
+         display: none !important;
+     }
+
+     label.star {
+         margin-bottom: 0px;
+     }
+
+     .product-section h5.card-title {
+         opacity: 1;
+         color: #464646;
+         font-family: 'Roboto', sans-serif;
+         display: block;
+         max-width: 100%;
+         margin: 0 auto;
+         display: -webkit-box;
+         -webkit-line-clamp: 3;
+         -webkit-box-orient: vertical;
+         overflow: hidden;
+         max-height: 80px;
+         text-align: left;
+         font-size: 14px;
+         line-height: 21px;
+     }
+
+     .product-header h3 {
+         font-size: 20px;
+         line-height: normal;
+         width: 100%;
+     }
+
+     .product-header a {
+         float: right;
+     }
+
+     .product-section .card-body {
+         padding: 15px 0px;
+     }
+
+     /* Favorite Section */
+     .favorite {
+         display: flex;
+         flex-direction: row;
+         flex-wrap: nowrap;
+         justify-content: flex-start;
+         align-items: center;
+         align-content: stretch;
+         padding: 15px 0 0 0;
+     }
+
+     .favorite h1.favorite-heading {
+         font-size: 22px;
+         line-height: normal;
+         font-weight: 300
+     }
+
+     .recipes-header {
+         display: flex;
+         flex-direction: column;
+         padding: 0 0 10px 0;
+     }
+
+     .recipes-header h3 {
+         font-size: 22px;
+         font-weight: 300;
+         line-height: normal;
+     }
+
+     .recipe-section .card-body {
+         padding: 0px 0.95rem;
+     }
+
+     .recipe-section h5.card-title {
+         font-size: 17px;
+         line-height: normal;
+     }
+
+     .recipe-section .card-title {
+         margin-bottom: 8px;
+     }
+
+     .recipe-section .recipe-col {
+         padding-bottom: 10px;
+     }
+
+     .py-5 {
+         padding-bottom: 1rem !important;
+     }
+
+     /* Fresh Product */
+
+     .fresh-product-section .card {
+         padding: 0px;
+         width: 17rem;
+         margin: 25px;
+     }
+
+     .fresh-product-section h5.card-title {
+         font-size: 17px;
+         line-height: normal;
+     }
+
+     .fresh-product-section h6.card-subtitle {
+         font-size: 15px;
+         line-height: normal;
+     }
+
+     .fresh-product-section .list-group-flush>.list-group-item,
+     .fresh-product-section .card-text {
+         line-height: normal;
+         font-size: 12px;
+         padding: 0px 0px 0px 10px;
+     }
+
+     .fresh-product-section {
+         height: 360px;
+     }
+
+     /* Shop Online */
+     .shop-pnline {
+         display: flex;
+         flex-direction: row;
+     }
+
+     .shop-pnline h1.online-heading {
+         font-size: 22px;
+         line-height: normal;
+         width: 100%;
+     }
+
+     .padding60 {
+         padding-top: 20px;
+     }
+
+     .paddingBottom60 {
+         padding-bottom: 20px;
+     }
+
+     .shop-pnline p {
+         font-size: 14px;
+         font-weight: 300;
+         line-height: normal;
+         width: 100%;
+     }
+
+     .shop-pnline .img-fluid {
+         max-width: 60%;
+         height: auto;
+         display: block;
+         margin: auto;
+     }
+
+     /* Order Delivery */
+
+     .order-delivery {
+         display: flex;
+         align-items: center;
+         flex-direction: row;
+     }
+
+     .order-delivery .img-fluid {
+         max-width: 60%;
+         height: auto;
+         display: block;
+         margin: auto;
+     }
+
+     .order-delivery h1.order-heading {
+         font-size: 22px;
+         line-height: normal;
+         width: 100%;
+     }
+
+     .order-delivery h3.order-heading {
+         font-size: 18px;
+         line-height: normal;
+         width: 100%;
+     }
+
+     .order-delivery p {
+         font-size: 14px;
+         font-weight: 300;
+         line-height: normal;
+         width: 100%;
+     }
+
+     /* Member Section */
+
+     .member-section h1 {
+         font-size: 18px;
+         font-weight: 300;
+         line-height: normal;
+         width: 100%;
+         padding-top: 30px;
+     }
+
+
+     .btn-categories button.btn.btn-primary.btn-lg {
+         font-size: 12px;
+     }
+
+     .btn-members button.btn.btn-primary.btn-lg {
+         font-size: 12px;
+     }
+
+     .member-section {
+         width: 93%;
+     }
+
+     /* Footer */
+     footer.container-fluid {
+         width: 100%;
+     }
+
+     footer p.copyright {
+         font-size: 12px;
+         text-align: center;
+
+     }
+
+     footer p.float-end {
+         display: block;
+         text-align: center;
+         padding-top: 20px;
+     }
+ }
